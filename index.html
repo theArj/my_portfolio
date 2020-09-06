@@ -1,22 +1,494 @@
 <!DOCTYPE html>
 <html>
-<title>Arjun Ramesh</title>
-<body>
-<article>
-    <header>
+  <title>Arjun Ramesh</title>
+  <!-- Enter style info below. -->
+  <style>
+    body {
+      font-family: "Times New Roman";
+      font-size: 18px;
+      line-height: 1.5;
+      color: #eee;
+      background-color: rgb(58, 58, 102);
+    }
+
+    a {
+      color: rgb(172, 63, 172);
+      text-decoration: none;
+    }
+
+    abbr {
+      color: rgb(230, 226, 173);
+      text-decoration: none;
+      text-decoration-style: none;
+    }
+
+    h1 {
+      color: rgb(230, 226, 173);
+      font-weight: bolder;
+      font-size: 2.5em;
+    }
+
+    h2 {
+      color: rgb(230, 226, 173);
+      font-weight: lighter;
+      font-size: 1.5em;
+    }
+
+    small {
+      color: rgb(232, 224, 119);
+      font-weight: lighter;
+      font-size: 2.5em;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+    }
+
+    .orange-column {
+      background-color: rgb(194, 75, 20);
+      height: 100px;
+    }
+    
+    .blue-column {
+      background-color: blue;
+      height: 100px;
+    }
+
+    .green-column {
+      background-color: green;
+      height: 100px;
+    }
+
+
+    .employment {
+        margin: 15px;
+        background-color: rgb(58, 58, 102);
+      }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+      }
+
+    .dates {
+        background-color: rgb(58, 58, 102)
+        height: 100px;
+      }
+
+    .organization {
+        background-color: rgb(58, 58, 102)
+        height: 100px;
+        
+    .location {
+        background-color: rgb(58, 58, 102)
+        height: 100px;
+      }
+}
+  </style>
+  <body>
+    <article>
+      <header>
         <h1><b>Arjun Ramesh</b></h1>
-        <h2><i>Musician, Photographer, Vegan, Computer Science <abbr>(CS)</abbr> Student</i></h2>
-    </header>
+        <h2>
+          <i
+            >Musician, Photographer, Vegan, Computer Science
+            <abbr>(CS)</abbr> Student</i
+          >
+        </h2>
+      </header>
 
-    <img src="Arjun Ramesh 03.jpg" alt="Arjun Ramesh" width="300" height="400">
+      <span style="float: left" ;
+        ><img
+          src="Arjun Ramesh 03.jpg"
+          alt="Arjun Ramesh"
+          width="300"
+          height="400"
+        />
+      </span style="">
+      <!-- Intro Bio -->
+      <!-- This section should be inline with the profile photo on the left, with
+      the text to its right. -->
+      <span>
+      <p>
+        As a visual and musical artist, my experience largely revolves around
+        the creative process, collaborative projects, and expression through
+        multiple mediums. As a formally trained audio engineer, I also learned
+        to embrace the technical concepts of the creative process, and to
+        systematically and quickly troubleshoot errors.
+      </p>
+      <p>
+        Combining an artistic perspective with technical proficiency, commercial
+        photography became my next passion. Creating alongside other artists
+        provided an avenue for one-of-a-kind expressive imagery, recognized by
+        international publications and awards. The desire to create, regardless
+        of medium, is an engrained trait for self expression, as well as the
+        need to inspire, invoke emotion and promote thought in the audience.
+      </p>
+      <p>
+        Now, my newest challenge as a computer science student is learning to
+        channel my creativity into a new medium to help other artists more
+        freely express themselves. For example, as a musician and audio
+        engineer, I am aware of technological limitations and steep learning
+        curves. As a commercial fashion photographer, I experienced the
+        inefficiencies of disorganized camera menu systems or poorly written
+        code for bridging professional camera systems wirelessly to mobile
+        phones. Artists wish to create, not to spend their valuable
+        time troubleshooting technical difficulties. Therefore, my aspiration is
+        to create or improve the digital mediums that artists use to make them
+        more user friendly, intuitive and reliable in high stress situations.
+      </p>
+      <p>
+        As a passion project, I would like to give back to the vegan/plant-based
+        community using my newly acquired technical skills. Since making the
+        change to the green (vegan) side in 2012, my life has positively
+        changed, given me a deeper love for all sentient beings, and a profound
+        respect for the planet. Whether I help entrepreneur vegan organziations
+        launch websites or apps, I would like to lend my skills to help unite
+        like minds and peacefully spread the message of living a cruelty-free lifestyle
+        to others who are receptive.
+      </p>
+      </span>
+      <br />
+      
+      <div class='employment'>
+        <div class='row'>
+          <div class='column'>
+            <div class='orange-column'>
+              Dates
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Organization
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Contribution
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              2017 - 2019
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Arjun Ramesh Fine Art Photography LLC
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 2, Column Three
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Row 3, Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Row 3, Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 4, Column Three
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Row 4, Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Row 4, Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 4, Column Three
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Row 5, Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Row 5, Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 5, Column Three
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Row 6, Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Row 6, Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 6, Column Three
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      <!-- EMPLOYMENT EXPERIENCE -->
+      <!-- This section should be a table containing columns and rows. -->
+      EMPLOYMENT EXPERIENCE "Dates": 2017 - 2019 "Company": Arjun Ramesh Fine
+      Art Photography, LLC "Title": Manager and Entrepreneur "Location": Boise,
+      Idaho "Description": 1. Operated an award-winning commercial fashion
+      photography company. 2. Built professional relationships with clients.
+      <br />
+      "Dates": 2016 - 2017 "Company": Albertsons, Inc. "Title": Legal Specialist
+      I / Real Estate Paralegal "Location": Boise, Idaho "Description": 1.
+      Drafted commercial real estate legal documents that govern sales and
+      acquisitions, licenses, and agreements. 2. Legal research of commercial
+      real estate documents, such as leases, deeds, and agreements for
+      remodeling projects, permissions, and lease renewals.
+      <br />
+      "Dates": 2016 - 2016 "Company": Perkins Coie, LLP "Title": Legal Secretary
+      "Location": Boise, Idaho "Description": Assisted four attorneys in
+      Business and Litigation practices, particularly the Environment and Energy
+      Resources and Business and Venture Capital practice groups.
+      <br />
+      "Dates": 2008 - 2009 "Company": Berlitz Deutschland GmbH "Title": English
+      Instructor "Location": Munich, Germany "Description": 1. Forged
+      exceptional client relations and retention. 2. Upheld the high standards
+      and reputation of a leading international academic institution through
+      proprietary language instruction methods.
+      <br />
+      "Dates": 2007 - 2008 "Company": Equity Residential "Title": Assistant
+      Property Manager "Location": Fairfax, Virginia "Description": 1. Amplified
+      the net operating income for a Fortune 500 company by boosting resident
+      occupancy from less than 1% to over 95% in under a year. 2. Fostered
+      positive resident relations through enhancements of services. 3. Lowered
+      bad debt and maintained rent deliquency to below 2% at a 250-unit
+      apartment community.
+      <br />
+      </div>
 
-    <p>As a visual and musical artist, my experience largely revolves around the creative process, collaborative projects, and expression through multiple mediums. As a formally trained audio engineer, I also learned to embrace the technical concepts of the creative process, and to systematically and quickly troubleshoot errors.</p>
-    <p>Combining an artistic perspective with technical proficiency, commercial photography became my next passion. Creating alongside other artists provided an avenue for one-of-a-kind expressive imagery, recognized by international publications and awards. The desire to create, regardless of medium, is an engrained trait for self expression, as well as the need to inspire, invoke emotion and promote thought in the audience.</p>
-    <p>Now, my newest challenge as a computer science student is learning to channel my creativity into a new medium to help other artists more freely express themselves. For example, as a musician and audio engineer, I am aware of technological limitations and steep learning curves. As a commercial fashion photographer, I experienced the inefficiencies of disorganized camera menu systems or poorly written code for bridging professional camera systems wirelessly to mobile phones, for example. Artists wish to create, not to spend their valuable time troubleshooting technical difficulties. Therefore, my aspiration is to create or improve the digital mediums that artists use to make them more user friendly, intuitive and reliable in high stress situations.</p>
-    <p>As a passion project, I would like to give back to the vegan/plant-based community using my newly acquired technical skills. Since making the change to the green (vegan) side in 2012, my life has positively changed, given me a deeper love for all sentient beings, and a profound respect for the planet. Whether I help entrepreneur vegan organziations launch websites or apps, I would like to lend my skills to help unite like minds and peacefully spread the message to others who are receptive.</p>
-    <br>
-    <footer>Connect with me on <a href="https://www.linkedin.com/in/arjunsramesh">LinkedIn</a>, <a href="https://github.com/theArj">GitHub</a> or through my commercial photography <a href="https://www.arfineartphoto.com">Website</a> for all social media links.</footer>
-</article>
+      <div class='education'>
+        <div class='row'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Column Three
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Row 2, Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Row 2, Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 2, Column Three
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Row 3, Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Row 3, Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 4, Column Three
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Row 4, Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Row 4, Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 4, Column Three
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Row 5, Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Row 5, Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 5, Column Three
+            </div>
+          </div>
+        </div>
+        <div class='row 2'>
+          <div class='column'>
+            <div class='orange-column'>
+              Some Text in Row 6, Column One
+            </div>
+          </div>
+          <div class='column'>
+            <div class='blue-column'>
+              Some Text in Row 6, Column Two
+            </div>
+          </div>
+          <div class='column'>
+            <div class='green-column'>
+              Some Text in Row 6, Column Three
+            </div>
+          </div>
+        </div>
+      </div>
 
-</body>
+      <!-- EDUCATION -->
+      <!-- This section should be a table containing columns and rows. -->
+      Dates: 2020 - 2022 School: Make School at Dominican University of
+      California Concentration: Full Stack Web Development Award: Bachelor of
+      Science in Computer Science
+      <br />
+      Dates: 2015 - 2015 School: University of California, Irvine Extension
+      Concentration: Civil Litigation, Intellectual Property Award:
+      Certification in Paralegal Studies GPA 3.96
+      <br />
+      Dates: 2014 - 2014, 2019 - 2019 School: Fullerton College Concentration:
+      Arts & Human expression Award: Associate of Arts in Interdiscriplinary
+      Studies
+      <br />
+      Dates: 2005 - 2006 School: Conservatory of Recording Arts & Sciences
+      Concentration: Audio engineering, Music Business Award: Professional
+      Certifcate for the Master Recording Program II GPA 4.0
+      <br />
+      Dates: 1999 - 2001 School: California State University, Fullerton
+      Concentration: Radio/TV/Film
+    </span>
+      <br />
+      
+
+      <span>
+      <!-- CERTIFICATIONS -->
+      <!-- This section should be a table containing columns and rows. -->
+      Certificate: Certificated Paralegal Organization: University of Californi,
+      Irvine
+      <br />
+      Certificate: Apple Certified Logic Pro 8 Level One Organization: Apple,
+      Inc.
+      <br />
+      Certificate: Auto-Tune 4 Organization: Antares
+      <br />
+      Certificate: Vertec Technology Organization: JBL
+      <br />
+      Certificate: Pro Tools 6.x Music Operator Organization: Digidesign/Avid
+      <br />
+      Certificate: Smaart Organization: SIA
+      <br />
+      Certificate: M3000 Proficiency Certification Organization: t.c. electronic
+      <br />
+      Certificate: Master Recording Program II Organization: Conservatory of
+      Recording Arts & Sciences
+      </span>
+      <br />
+      
+
+      <span>
+      <!-- HONORS & AWARDS -->
+      <!-- This section should be a table containing columns and rows. -->
+      Honor: Natural Born Artist 2018 Organization: RAW Artists
+      <br />
+      Honor: Portrait Photo Awards Winner (21st Collection) Organization:
+      Portrait Photo Awards (Vienna, Austria)
+      </span>
+      <br />
+      
+
+      <span>
+      <!-- LANGUAGES -->
+      <!-- This section should be a table containing columns and rows. -->
+      LANGUAGES 1. English 2. Kannada
+      </span>
+      <br />
+    </div>
+      
+      <footer>
+        Connect with me on
+        <a href="https://www.linkedin.com/in/arjunsramesh">LinkedIn</a>,
+        <a href="https://github.com/theArj">GitHub</a> or through my commercial
+        photography <a href="https://www.arfineartphoto.com">Website</a> for all
+        social media links.
+      </footer>
+    </article>
+  </body>
 </html>
