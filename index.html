@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <title>Arjun Ramesh</title>
+  <html class="html" lang="en-US">
+    <head>Arjun Ramesh Portfolio</head>
+      <title>Arjun Ramesh</title>
+
+  <nav>
+    <a href="/employment/">Employment</a> |
+    <a href="/education/">Education</a> |
+    <a href="/certifications/">Certifications</a> |
+    <a href="/honors/">Honors & Awards</a>
+    <a href="/volunteer/">Volunteer Experience</a>
+    <a href="/languages/">Languages</a>
+    <a href="/contact/">Contact</a>
+  </nav>
 
   <!-- Enter style info below. -->
-
+  <body>
   <style>
     body {
-      font-family:Times, 'Times New Roman', serif;
+      font-family: Times, "Times New Roman", serif;
       font-size: 18px;
       line-height: 1.5;
       color: #eee;
-      background-color: rgb(58, 58, 102);
+      background-image: linear-gradient(
+        to bottom right,
+        rgb(9, 98, 121),
+        rgb(34, 123, 206)
+      );
     }
 
     a:link {
@@ -59,7 +74,6 @@
 
     .employment {
       margin: 15px;
-      background-color: rgb(58, 58, 102);
     }
 
     .row {
@@ -70,6 +84,10 @@
       height: flex;
     }
 
+    .row:nth-child(even) {
+      background: rgb(14, 91, 136);
+    }
+
     .column {
       display: flex;
       flex-direction: column;
@@ -78,7 +96,6 @@
     }
 
     .dates {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
@@ -86,18 +103,15 @@
 
     .education {
       margin: 15px;
-      background-color: rgb(58, 58, 102);
     }
 
     .organization1 {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
     }
 
     .organization2 {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
@@ -105,57 +119,48 @@
     }
 
     .organization3 {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
     }
 
     .organization4 {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
     }
 
     .certification {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
-      
     }
 
     .title {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
     }
 
     .contribution {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
     }
 
     .institution {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
     }
 
     .concentration {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
     }
 
     .honors {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
@@ -163,14 +168,12 @@
     }
 
     .hon_award {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
     }
 
     .volunteer {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
@@ -178,18 +181,22 @@
     }
 
     .award {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
     }
 
     .languages {
-      background-color: rgb(58, 58, 102);
       height: flex;
       justify-content: center;
       align-items: center;
       margin: 15px;
+    }
+
+    .contact {
+      height: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .ul {
@@ -197,16 +204,13 @@
     }
 
     p:nth-child(odd) {
-      background: rgb(87, 88, 153);
+      background: rgb(31, 157, 196);
     }
 
     p:nth-child(even) {
-      background: rgb(13, 13, 100);
+      background: rgb(6, 44, 75);
     }
-
-    
   </style>
-  <body>
     <article>
       <header>
         <h1><b>Arjun Ramesh</b></h1>
@@ -355,117 +359,117 @@
               </ul>
             </div>
           </div>
-          <div class="row 3">
-            <div class="column">
-              <div class="dates">2016 - 2017</div>
-            </div>
-            <div class="column">
-              <div class="organization1">Albertsons Companies, LLC</div>
-            </div>
-            <div class="column">
-              <div class="title">
-                <i>Legal Specialist I / Real Estate Paralegal</i>
-              </div>
-            </div>
-            <div class="column">
-              <div class="contribution">
-                <ul>
-                  <li>
-                    Drafted commercial real estate legal documents that govern
-                    sales and acquisitions, licenses, and agreements.
-                  </li>
-                  <li>
-                    Legal research of commercial real estate documents, such as
-                    leases, deeds, and agreements for remodeling projects,
-                    permissions, and lease renewals.
-                  </li>
-                </ul>
-              </div>
+        </div>
+        <div class="row 3">
+          <div class="column">
+            <div class="dates">2016 - 2017</div>
+          </div>
+          <div class="column">
+            <div class="organization1">Albertsons Companies, LLC</div>
+          </div>
+          <div class="column">
+            <div class="title">
+              <i>Legal Specialist I / Real Estate Paralegal</i>
             </div>
           </div>
-          <div class="row 4">
-            <div class="column">
-              <div class="dates">2016 - 2016</div>
-            </div>
-            <div class="column">
-              <div class="organization1">Perkins Coie, LLP</div>
-            </div>
-            <div class="column">
-              <div class="title">
-                <i>Legal Assistant</i>
-              </div>
-            </div>
-            <div class="column">
-              <div class="contribution">
-                <ul>
-                  <li>
-                    Assisted four attorneys in Business and Litigation
-                    practices, particularly the Environment and Energy Resources
-                    and Business and Venture Capital practice groups.
-                  </li>
-                  <li>
-                    Organized digital file management systems and contributed to
-                    the successful operation of a Fortune 50 law firm.
-                  </li>
-                </ul>
-              </div>
+          <div class="column">
+            <div class="contribution">
+              <ul>
+                <li>
+                  Drafted commercial real estate legal documents that govern
+                  sales and acquisitions, licenses, and agreements.
+                </li>
+                <li>
+                  Legal research of commercial real estate documents, such as
+                  leases, deeds, and agreements for remodeling projects,
+                  permissions, and lease renewals.
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="row 5">
-            <div class="column">
-              <div class="dates">2008 - 2009</div>
-            </div>
-            <div class="column">
-              <div class="organization1">Berlitz Deutschland GmbH</div>
-            </div>
-            <div class="column">
-              <div class="title">
-                <i>English Instructor</i>
-              </div>
-            </div>
-            <div class="column">
-              <div class="contribution">
-                <ul>
-                  <li>Forged exceptional client relations and retention.</li>
-                  <li>
-                    Upheld the high standards and reputation of a leading
-                    international academic institution through proprietary
-                    language instruction methods.
-                  </li>
-                </ul>
-              </div>
+        </div>
+        <div class="row 4">
+          <div class="column">
+            <div class="dates">2016 - 2016</div>
+          </div>
+          <div class="column">
+            <div class="organization1">Perkins Coie, LLP</div>
+          </div>
+          <div class="column">
+            <div class="title">
+              <i>Legal Assistant</i>
             </div>
           </div>
-          <div class="row 6">
-            <div class="column">
-              <div class="dates">2007 - 2008</div>
+          <div class="column">
+            <div class="contribution">
+              <ul>
+                <li>
+                  Assisted four attorneys in Business and Litigation practices,
+                  particularly the Environment and Energy Resources and Business
+                  and Venture Capital practice groups.
+                </li>
+                <li>
+                  Organized digital file management systems and contributed to
+                  the successful operation of a Fortune 50 law firm.
+                </li>
+              </ul>
             </div>
-            <div class="column">
-              <div class="organization1">Equity Residential</div>
+          </div>
+        </div>
+        <div class="row 5">
+          <div class="column">
+            <div class="dates">2008 - 2009</div>
+          </div>
+          <div class="column">
+            <div class="organization1">Berlitz Deutschland GmbH</div>
+          </div>
+          <div class="column">
+            <div class="title">
+              <i>English Instructor</i>
             </div>
-            <div class="column">
-              <div class="title">
-                <i>Assistant Property Manager</i>
-              </div>
+          </div>
+          <div class="column">
+            <div class="contribution">
+              <ul>
+                <li>Forged exceptional client relations and retention.</li>
+                <li>
+                  Upheld the high standards and reputation of a leading
+                  international academic institution through proprietary
+                  language instruction methods.
+                </li>
+              </ul>
             </div>
-            <div class="column">
-              <div class="contribution">
-                <ul>
-                  <li>
-                    Amplified the net operating income for a Fortune 500 company
-                    by boosting resident occupancy from less than 1% to over 95%
-                    in under a year.
-                  </li>
-                  <li>
-                    Fostered positive resident relations through enhancements of
-                    services.
-                  </li>
-                  <li>
-                    Lowered bad debt and maintained rent deliquency to below 2%
-                    at a 250-unit apartment community.
-                  </li>
-                </ul>
-              </div>
+          </div>
+        </div>
+        <div class="row 6">
+          <div class="column">
+            <div class="dates">2007 - 2008</div>
+          </div>
+          <div class="column">
+            <div class="organization1">Equity Residential</div>
+          </div>
+          <div class="column">
+            <div class="title">
+              <i>Assistant Property Manager</i>
+            </div>
+          </div>
+          <div class="column">
+            <div class="contribution">
+              <ul>
+                <li>
+                  Amplified the net operating income for a Fortune 500 company
+                  by boosting resident occupancy from less than 1% to over 95%
+                  in under a year.
+                </li>
+                <li>
+                  Fostered positive resident relations through enhancements of
+                  services.
+                </li>
+                <li>
+                  Lowered bad debt and maintained rent deliquency to below 2% at
+                  a 250-unit apartment community.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -536,7 +540,8 @@
               </div>
             </div>
             <div class="column">
-              <div class="award">Bachelor of Science in Applied Computer Science 2022.
+              <div class="award">
+                Bachelor of Science in Applied Computer Science 2022.
               </div>
             </div>
           </div>
@@ -680,7 +685,11 @@
             </div>
             <div class="column">
               <div class="certification">
-                <i><a href="https://ce.uci.edu/areas/legal/paralegal/">Certificated Paralegal</a></i>
+                <i
+                  ><a href="https://ce.uci.edu/areas/legal/paralegal/"
+                    >Certificated Paralegal</a
+                  ></i
+                >
               </div>
             </div>
           </div>
@@ -690,7 +699,11 @@
             </div>
             <div class="column">
               <div class="certification">
-                <i><a href="https://training.apple.com/us/en/recognition">Logic Pro 7 & 8</a></i>
+                <i
+                  ><a href="https://training.apple.com/us/en/recognition"
+                    >Logic Pro 7 & 8</a
+                  ></i
+                >
               </div>
             </div>
           </div>
@@ -700,7 +713,11 @@
             </div>
             <div class="column">
               <div class="certification">
-                <i><a href="https://www.avid.com/certifications/pro-tools-user">Pro Tools 6.x Music Operator</a></i>
+                <i
+                  ><a href="https://www.avid.com/certifications/pro-tools-user"
+                    >Pro Tools 6.x Music Operator</a
+                  ></i
+                >
               </div>
             </div>
           </div>
@@ -898,26 +915,39 @@
       <div>
         <div class="languages">
           <div class="row">
-            <div class="column">
-                English
-              </div>
-            </div>
-            <div class="column">
-              Kannada
-            </div>
+            <div class="column">English and Kannada</div>
           </div>
-          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <!-- This section should be a table containing columns and rows. -->
+      <!-- 
+      Connect with me on:
+      LinkedIn
+      GitHub
+      <br>
+      Or, through my commerical photography Website for all social media links.
+      -->
+
+      <p>
+        <b>CONTACT:</b>
+      </p>
+      <div>
+        <div class="contact">
+            Connect with me on 
+            <a href="https://www.linkedin.com/in/arjunsramesh">LinkedIn</a>, 
+            <a href="https://github.com/theArj"> GitHub</a>, 
+            <a href="https://medium.com/@arjunramesh2020">Medium </a>, or through
+            my commercial photography
+            <a href="https://www.arfineartphoto.com">Website</a>
+            for all social media links.
+        </div>
+      </div>
+
       <br />
       <br />
-      <footer>
-        Connect with me on
-        <a href="https://www.linkedin.com/in/arjunsramesh">LinkedIn</a>,
-        <a href="https://github.com/theArj">GitHub</a>,
-        <a href="https://medium.com/@arjunramesh2020">Medium</a>, or through my
-        commercial photography
-        <a href="https://www.arfineartphoto.com">Website</a> for all social
-        media links.
-      </footer>
+      <footer>Copyright 2020 Arjun Ramesh</footer>
     </article>
   </body>
 </html>
