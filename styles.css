@@ -1,196 +1,195 @@
-<style>
-    body {
-      font-family: Times, "Times New Roman", serif;
-      font-size: 18px;
-      line-height: 1.5;
-      color: #eee;
-      background-image: linear-gradient(
-        to bottom right,
-        rgb(9, 98, 121),
-        rgb(34, 123, 206)
-      );
-    }
+body {
+  font-family: Times, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #eee;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(9, 98, 121),
+    rgb(34, 123, 206)
+  );
+}
 
-    a:link {
-      color: rgb(221, 210, 109);
-      text-decoration: underline;
-    }
+a:link {
+  color: rgb(221, 210, 109);
+  text-decoration: underline;
+}
 
-    /* visited link */
-    a:visited {
-      color: rgb(137, 143, 201);
-    }
+/* visited link */
+a:visited {
+  color: rgb(137, 143, 201);
+}
 
-    /* mouse over link */
-    a:hover {
-      color: red;
-    }
+/* mouse over link */
+a:hover {
+  color: red;
+}
 
-    /* selected link */
-    a:active {
-      color: yellow;
-    }
+/* selected link */
+a:active {
+  color: yellow;
+}
 
-    abbr {
-      color: rgb(230, 226, 173);
-      text-decoration: none;
-      text-decoration-style: none;
-    }
+abbr {
+  color:  rgb(224, 155, 63);
+  text-decoration: none;
+  text-decoration-style: none;
+}
 
-    h1 {
-      color: rgb(230, 226, 173);
-      font-weight: bolder;
-      font-size: 2.5em;
-    }
+h1 {
+  color: rgb(224, 155, 63);
+  font-weight: bolder;
+  font-size: 2.5em;
+}
 
-    h2 {
-      color: rgb(230, 226, 173);
-      font-weight: lighter;
-      font-size: 1.5em;
-    }
+h2 {
+  color:  rgb(224, 155, 63);
+  font-weight: lighter;
+  font-size: 1.5em;
+}
 
-    small {
-      color: rgb(232, 224, 119);
-      font-weight: lighter;
-      font-size: 2.5em;
-    }
+small {
+  color: rgb(232, 224, 119);
+  font-weight: lighter;
+  font-size: 2.5em;
+}
 
-    .employment {
-      margin: 15px;
-    }
+.employment {
+  margin: 15px;
+}
 
-    .row {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 100%;
-      height: flex;
-    }
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: flex;
+}
 
-    .row:nth-child(even) {
-      background: rgb(14, 91, 136);
-    }
+.row:nth-child(even) {
+  background: rgb(14, 91, 136);
+}
 
-    .column {
-      display: flex;
-      flex-direction: column;
+.column {
+  display: flex;
+  flex-direction: column;
 
-      flex: 1;
-    }
+  flex: 1;
+}
 
-    .dates {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.dates {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .education {
-      margin: 15px;
-    }
+.education {
+  margin: 15px;
+}
 
-    .organization1 {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.organization1 {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .organization2 {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-      padding-left: 15px;
-    }
+.organization2 {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+}
 
-    .organization3 {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.organization3 {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .organization4 {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.organization4 {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .certification {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.certification {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .title {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.title {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .contribution {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.contribution {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .institution {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.institution {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .concentration {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.concentration {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .honors {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 15px;
-    }
+.honors {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
 
-    .hon_award {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.hon_award {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .volunteer {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 15px;
-    }
+.volunteer {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
 
-    .award {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.award {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    .languages {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 15px;
-    }
+.languages {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
 
-    .contact {
-      height: flex;
-      justify-content: center;
-      align-items: center;
-    }
+.contact {
+  height: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
 
-    .ul {
-      list-style-type: circle;
-    }
+.ul {
+  list-style-type: circle;
+}
 
-    p:nth-child(odd) {
-      background: rgb(31, 157, 196);
-    }
+p:nth-child(odd) {
+  background: rgb(31, 157, 196);
+}
 
-    p:nth-child(even) {
-      background: rgb(6, 44, 75);
-    }
-  </style>
+p:nth-child(even) {
+  background: rgb(6, 44, 75);
+}
