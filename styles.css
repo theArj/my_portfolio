@@ -17,7 +17,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: rgb(137, 143, 201);
+  color: rgb(43, 184, 61);
 }
 
 /* mouse over link */
@@ -31,7 +31,7 @@ a:active {
 }
 
 abbr {
-  color:  rgb(224, 155, 63);
+  color: rgb(224, 155, 63);
   text-decoration: none;
   text-decoration-style: none;
 }
@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  color:  rgb(224, 155, 63);
+  color: rgb(224, 155, 63);
   font-weight: lighter;
   font-size: 1.5em;
 }
@@ -87,26 +87,7 @@ small {
   margin: 15px;
 }
 
-.organization1 {
-  height: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.organization2 {
-  height: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 15px;
-}
-
-.organization3 {
-  height: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.organization4 {
+.organization {
   height: flex;
   justify-content: center;
   align-items: center;
